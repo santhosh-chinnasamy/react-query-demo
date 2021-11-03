@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  display: grid;
+  place-items: center;
+}
+
+.user {
+  display: flex;
+  place-items: center;
+}
+
+.user .input {
+  padding: 10px;
+}
+
+.user .input label {
+  padding: 10px;
+}
+
+.container table > tbody > tr > td {
+  list-style: none;
+  text-align: left;
+  padding-bottom: 10px;
+  border: 1px solid black;
+}
+
+
+.container table > tbody > tr > th {
+  list-style: none;
+  text-align: left;
+  padding-bottom: 10px;
+  border: 1px solid black;
+}
